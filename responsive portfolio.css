@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+    font-family: "cursive";
+    font-style: italic;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.navbar-nav .nav-link {
+    font-size: 18px;
+    margin: 0 10px;
+}
+
+.home {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.profile-circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+    background-image: url('https://i.imgur.com/h78pSP6.jpeg');
+    /* Replace with your profile picture URL */
+    background-size: cover;
+    background-position: center;
+    border: 5px solid #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.circle-btn {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    margin: 15px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    font-style: italic;
+}
+
+.circle-btn:hover {
+    transform: scale(1.1);
+}
+
+.btn-resume {
+    background-color: #eea302;
+}
+
+.btn-projects {
+    background-color: #ff3b25;
+}
+
+.btn-contact {
+    background-color: #80d8da;
+}
+
+.about-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.about-text {
+    max-width: 500px;
+    margin-left: 40px;
+    text-align: left;
+}
+
+.section {
+    display: none;
+}
+
+.section.active {
+    display: block;
+}
+
+.bottom-line {
+    border-top: 3px solid #000;
+    margin-top: 40px;
+    padding-top: 20px;
+    text-align: center;
+}
